@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IncrementCounter</title>
+    <style>
+        #coffee {
+            position: absolute;
+            top: 216px;
+            left: 481px;
+        }
+
+        #people {
+
+            position: absolute;
+            top: 220px;
+            left: 666px;
+        }
+
+        #checklist {
+
+            position: absolute;
+            top: 224px;
+            left: 866px;
+        }
+
+        #one {
+
+            position: absolute;
+            top: 292px;
+            left: 448px;
+        }
+
+        #two {
+
+            position: absolute;
+            top: 292px;
+            left: 637px;
+        }
+
+        #three {
+
+            position: absolute;
+            top: 292px;
+            left: 838px;
+        }
+
+        #counter1 {
+
+            position: absolute;
+            top: 270px;
+            left: 495px;
+        }
+
+        #counter2 {
+
+            position: absolute;
+            top: 270px;
+            left: 692px;
+        }
+
+        #counter3 {
+            position: absolute;
+            top: 270px;
+            left: 888px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="counter-container">
+        <i id="coffee" class="fa-solid fa-mug-hot fa-3x"></i>
+        <div id="counter1" class="counter" data-target="4000">1</div>
+        <span id="one">Project Completed</span>
+    </div>
+    <div class="counter-container">
+        <i id="people" class="fa-solid fa-people-group fa-3x"></i>
+        <div id="counter2" class="counter" data-target="15000">2</div>
+        <span id="two">Our Happy Clients</span>
+    </div>
+    <div class="counter-container">
+        <i id="checklist" class="fa-solid fa-list-check fa-3x"></i>
+        <div id="counter3" class="counter" data-target="500">3</div>
+        <span id="three">On-Going Projects</span>
+    </div>
+    <script src="https://kit.fontawesome.com/b3ae19db94.js" crossorigin="anonymous"></script>
+    <script src="incrementcounter.js"></script>
+</body>
+<!-- 
+    Ways to convert string into numbers
+    1--using unary oprator
+    var n=+str;
+    2--using number constructor
+    var n=Number(str);
+    3--using parseFloat Function
+    var n=parseFloat(str);
+
+ -->
+
+</html>
+<!-- data-*attributes are designed to hold custom data forcustom code -->
